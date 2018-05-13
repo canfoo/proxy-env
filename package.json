@@ -2,7 +2,7 @@
   "name": "proxy-env",
   "version": "0.0.1",
   "description": "本地切换环境小工具",
-  "main": "index.js",
+  "main": "./lib/proxy-env.js",
   "scripts": {
     "proxy-env": "node ./lib/change.js",
     "demo": "node ./example/demo.js"
