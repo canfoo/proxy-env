@@ -4,8 +4,7 @@
   "description": "本地切换环境小工具",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "change": "node ./lib/change.js",
+    "proxy-env": "node ./lib/change.js",
     "demo": "node ./example/demo.js"
   },
   "repository": {
@@ -24,6 +23,9 @@
   "homepage": "https://github.com/canfoo/proxy-env#readme",
   "dependencies": {
     "module-hot-update": "0.0.8",
-    "prompts": "^0.1.8"
+    "prompt-radio": "^1.2.1"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1"
   }
 }

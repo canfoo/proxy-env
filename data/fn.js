@@ -1,4 +1,7 @@
-module.exports =  (value, content) => {
-    console.log('value', value)
-    return `module.exports = {a: "${value}"};`
+module.exports =  function callBack(val, content) {
+    let reg = /const devUrl = ([\w\W]*?)[\r\n\s]/
+    content = content.replace(reg, () => {
+        return `const devUrl = '${val.url}'\n`
+    })
+    return content
 }

@@ -1,1 +1,4 @@
-module.exports = {a: "dev"};
+
+const devUrl = 'http://test'
+
+module.exports = {url: devUrl};

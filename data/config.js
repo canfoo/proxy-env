@@ -1,1 +1,1 @@
-module.exports = [{"title":"dev","value":"dev"},{"title":"test","value":"test"}]
+module.exports = [{"name":"dev","url":"http://dev"},{"name":"test","url":"http://test"}]
