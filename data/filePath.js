@@ -1,0 +1,1 @@
+module.exports = "/Users/chensenwei/study/git/proxy-env/example/js/p1.js"

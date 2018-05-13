@@ -1,0 +1,29 @@
+{
+  "name": "proxy-env",
+  "version": "0.0.1",
+  "description": "本地切换环境小工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "change": "node ./lib/change.js",
+    "demo": "node ./example/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canfoo/proxy-env.git"
+  },
+  "keywords": [
+    "proxy",
+    "node"
+  ],
+  "author": "canfoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canfoo/proxy-env/issues"
+  },
+  "homepage": "https://github.com/canfoo/proxy-env#readme",
+  "dependencies": {
+    "module-hot-update": "0.0.8",
+    "prompts": "^0.1.8"
+  }
+}
