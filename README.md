@@ -13,5 +13,5 @@ npm run change // 选择对应的环境，node重新加载被选中的环境值
  
  
  ### todo
- - [] A
+ - [ ] A
 
